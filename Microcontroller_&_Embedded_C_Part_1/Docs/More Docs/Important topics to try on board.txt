@@ -1,0 +1,29 @@
+Important topics or sections to cover using board:
+
+NOTE: SEE BOOKMARKS IN UDEMY COURSE FOR MORE DETAILS
+
+GITHUB: https://github.com/niekiran
+
+COMPLETED:
+Section 8: All Lectures: To load project to the target board
+Section 9: Lecture 58: Build Process
+Section 13: Lecture 75: Read and write operations on pointers
+Section 25: Lectures 156, 157, 158, 159: Packet extraction exercise on structures and bitfields
+Section 26: Lecture 160: Advantages of Unions
+Section 21: Full
+Section 18: Full
+	General information on GPIO, memory
+	Procedure to turn ON the LED
+	Peripheral clock and register addresses
+	LED ON exercise coding
+Section 19: Full
+Section 20: LED toggle exercise - Lectures 134, 135
+Section 21: Full
+Section 22: Full - Pin read exercise
+Section 24: Full
+	Lectures 142: When to use volatile keyword
+	Lectures 144, 145: Volatile usage in Interrupt service routines
+	Lecture 146: Difference between const and volatile
+	Note: 'const volatile' keyword is used only for read only memory address
+Section 27: Full - Lecture 162 to 166: Replace the bit shift operators with bit field structures to implement LED toggling
+Section 28: Keypad Interfacing Project: Reproduce the project. Upload this in github as a project.
