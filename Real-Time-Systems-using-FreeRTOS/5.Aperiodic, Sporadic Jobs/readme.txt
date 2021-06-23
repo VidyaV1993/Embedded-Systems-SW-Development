@@ -21,3 +21,17 @@ Programming Assignment
 	- If not, solve this problem without alter the functionality of any task
 	- What is the response time of the aperiodic task?  
 	- Provide a screenshot of the running system
+
+Programming Assignment Answers
+
+1. Is the system fast enough to handle all aperiodic tasks? Why?
+Ans: No, the matrix task is consuming most of the CPU time and the priority of aperiodic task is less than matrix task. 
+
+2. If not, solve this problem without alter the functionality of any task
+Ans: This can be solved by making the priority of both the tasks equal.
+
+3. What is the response time of the aperiodic task?  
+Ans: Response time of the aperiodic task is around 2 seconds. This can be improved by increasing the priority.
+
+4. Provide a screenshot of the running system
+Ans: Run the application RTOSDemo.exe attached in this folder to see the results.
