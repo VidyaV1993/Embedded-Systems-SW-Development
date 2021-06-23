@@ -23,6 +23,7 @@ int main(void)
 
 	GPIO_Handle_t GpioLed, GPIOBtn;
 
+	//Clear all the member elements of the structure to zero to avoid garbage values in these structure variables.
 	memset(&GpioLed,0,sizeof(GpioLed));
 	memset(&GPIOBtn,0,sizeof(GpioLed));
 
@@ -51,6 +52,7 @@ int main(void)
 	GPIO_Init(&GPIOBtn);
 
 	GPIO_WriteToOutputPin(GPIOD,GPIO_PIN_NO_12,GPIO_PIN_RESET);
+
 	//IRQ configurations
 	GPIO_IRQPriorityConfig(IRQ_NO_EXTI9_5,NVIC_IRQ_PRI15);
 	GPIO_IRQInterruptConfig(IRQ_NO_EXTI9_5,ENABLE);
@@ -59,10 +61,9 @@ int main(void)
 
 }
 
-
 void EXTI9_5_IRQHandler(void)
 {
-   /// delay(); //200ms . wait till button de-bouncing gets over
+    delay(); //200ms wait time until button debouncing gets over
 	GPIO_IRQHandling(GPIO_PIN_NO_5); //clear the pending event from exti line
 	GPIO_ToggleOutputPin(GPIOD,GPIO_PIN_NO_12);
 }

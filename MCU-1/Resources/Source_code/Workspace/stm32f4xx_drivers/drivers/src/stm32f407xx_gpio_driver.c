@@ -427,10 +427,9 @@ void GPIO_IRQPriorityConfig(uint8_t IRQNumber,uint32_t IRQPriority)
 void GPIO_IRQHandling(uint8_t PinNumber)
 {
 	//clear the exti pr register corresponding to the pin number
-	if(EXTI->PR & ( 1 << PinNumber))
+	if(EXTI->PR & ( 1 << PinNumber))//Check whether the bit is set
 	{
-		//clear
+		//clear the pending reg bit. In the reg details, it is written, procedure to clear the PR is to write 1.
 		EXTI->PR |= ( 1 << PinNumber);
 	}
-
 }
