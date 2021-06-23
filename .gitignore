@@ -23,7 +23,6 @@ My_workspace/target/003Add/Debug/makefile
 **/My_workspace/target/003Add/Debug/*
 **/My_workspace/target/001HelloWorld/Debug/*
 **/My_workspace/target/002Sizeof/Debug/*
-*.xml
 *.xmi
 *.log
 *.prefs
