@@ -30,7 +30,6 @@ My_workspace/target/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log
 *.201912201802
 *.dat
 My_workspace/target/.metadata/.lock
-*.xml
 **/.settings/*
 **/Debug/*
 **/.metadata/*
