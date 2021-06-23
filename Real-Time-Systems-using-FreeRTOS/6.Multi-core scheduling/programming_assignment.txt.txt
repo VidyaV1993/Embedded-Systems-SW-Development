@@ -1,0 +1,2 @@
+1. Provide a screenshot of the running system
+Ans: Run the application RTOSDemo.exe attached in this folder to see the results.
