@@ -25,7 +25,7 @@ int main(void)
 
 	//Clear all the member elements of the structure to zero to avoid garbage values in these structure variables.
 	memset(&GpioLed,0,sizeof(GpioLed));
-	memset(&GPIOBtn,0,sizeof(GpioLed));
+	memset(&GPIOBtn,0,sizeof(GPIOBtn));
 
 	//this is led gpio configuration
 	GpioLed.pGPIOx = GPIOD;
